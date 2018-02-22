@@ -117,7 +117,6 @@ body {
 }
 
 .profile-section {
-    width: 100%;
     padding: 2em;
     background-color: #030321;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -128,13 +127,49 @@ body {
 .projects-section {
     padding: 2em;
     background-color: #F6F5F7;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.contact-section {
+    color: white;
+    padding: 2em;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.contact-section .form-control {
+    color: white;
+    outline-color: #030321;
+    border-color: #030321;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c600e0, #6d00db);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c600e0, #6d00db); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-section .btn {
+    color: white;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #53346D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-control::placeholder { 
+    color: white;
+    opacity: 0.7;
+    opacity: 1; 
 }
 
 .profile-section p {
     width: 65vw;
     margin:0 auto;
 }
-
 
 .companies img {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -160,11 +195,15 @@ body {
 }
 
 svg {
-    font: 10em 'Josefin Sans';
+    font: 10em 'Nunito';
     width: 100%;
     padding: 0;
     height: 300px;
     margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #s-text {
@@ -172,41 +211,41 @@ svg {
 }
 
 .text-copy {
-    fill: none;
+    fill: #030321;
     stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
+    stroke-dasharray: 10% 29%;
+    stroke-width: 4px;
+    stroke-dashoffset: 1%;
     animation: stroke-offset 5.5s infinite linear;
 }
 
 .text-copy:nth-child(1){
-	stroke: #37000A;
-	animation-delay: -1;
+	stroke: #E000FF;
+	animation-delay: -1s;
 }
 
 .text-copy:nth-child(2){
-	stroke: #7646FE;
+	stroke: #D000FF;
 	animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-	stroke: #B3C2F2;
+	stroke: #A800FF;
 	animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-	stroke: #9000B3;
+	stroke: #9900FF;
 	animation-delay: -4s;
 }
 
 .text-copy:nth-child(5){
-	stroke: #7E007B;
+	stroke: #8D00FF;
 	animation-delay: -5s;
 }
 
 .text-copy:nth-child(6){
-	stroke: white;
+	stroke: #8000FF;
 	animation-delay: -6s;
 }
 
