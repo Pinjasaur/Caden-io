@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/cadenjs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://caden.io
+  * I am cadenjs (https://keybase.io/cadenjs) on keybase.
+  * I have a public key ASARJ3YDgyTQedbNuUvbnaaKV2sDPm3uH5yw8RKtmrdvyAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120112776038324d079d6cdb94bdb9da68a576b033e6dee1f9cb0f112ad9ab76fc80a",
+      "host": "keybase.io",
+      "kid": "0120112776038324d079d6cdb94bdb9da68a576b033e6dee1f9cb0f112ad9ab76fc80a",
+      "uid": "9aa63fd9d77afddf107bdbf582b93219",
+      "username": "cadenjs"
+    },
+    "merkle_root": {
+      "ctime": 1538961609,
+      "hash": "f73315a4bd8176c0512c5305fd27388b45d96a3057c6e13b30c4996f40353682cced757f1c5cf536764d7febf89fed508ed5ba06f8dac87b75131bf14972f57a",
+      "hash_meta": "5ef44fa397b4ead1b92eaae328884248fb0ec6f5040a7289e20f82f58036922e",
+      "seqno": 3759949
+    },
+    "service": {
+      "entropy": "ykiRAFtAE3P+lrle9q3lEpz+",
+      "hostname": "caden.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.7.2"
+  },
+  "ctime": 1538961745,
+  "expire_in": 504576000,
+  "prev": "289e01f4b6773e8d4bbd707f2f6fdf1279fc9111e18bc55fb2f80a1d2d58e87a",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgESd2A4Mk0HnWzblL252mildrAz5t7h+csPESrZq3b8gKp3BheWxvYWTESpcCGsQgKJ4B9LZ3Po1LvXB/L2/fEnn8kRHhi8VfsvgKHS1Y6HrEIHTsb+HsErWD+YdUBIBDOuybW8ARHyFYqSv27JVo8qMxAgHCo3NpZ8RAOJbe+4ciWbI614e1ze40IxQKcZkBy2tukFZ1+9qRha71y6B9DGj31hzfBSKyLmklguidtUWxbERHGW4o7tKhDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHqxM82+tuuzZSqbZLaGG1uTSbYoYnnLbRTYxv2Yb5yTo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cadenjs
+
+==================================================================
