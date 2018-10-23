@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Caden Sumner - Me - @CadenSumner
 
 # THANKS
 
-    <name>
+    Paul <3
 
 # TECHNOLOGY COLOPHON
 
